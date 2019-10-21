@@ -47,22 +47,10 @@ public class StringUtilities {
      * @return `value` with char of value `charToRemove` removed
      */
     public String removeCharacter(String value, Character charToRemove) {
-        String newStr1 = value;
-        Character character1 = charToRemove;
         
-        String [] splitted = newStr1.split("");
+       
         
-        
-        for (int i = 0; i < splitted.length; i++)   {
-            
-            if(splitted[i] == character1)       {
-                
-            
-        
-        
-        
-        
-        return newStr2;
+        return null;
     }
 
     /**
