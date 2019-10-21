@@ -10,8 +10,15 @@ public class LoopFun
        * @return the factorial of the number
        */
       public Integer factorial(Integer number){
-          return null;
-      }
+          int factorial = 1;
+          for(int i = 1; i <= number; i++)  {
+              factorial = factorial * i;
+             
+          
+          
+          
+      }return factorial;
+    }
 
       /**
        * Given a phrase, get the acronym of that phrase. Acronym is the combination of
@@ -21,7 +28,17 @@ public class LoopFun
        * @return Upper case string of the first letter of each word
        */
       public String acronym(String phrase) {
-          return null;
+          
+          String [] splitted = phrase.split(" ");
+          String letters = "";
+          for(int i = 0; i < splitted.length; i++) {
+              letters += splitted[i].toUpperCase().charAt(0);
+            }
+            
+              
+          
+          
+          return letters;
       }
 
       /**
